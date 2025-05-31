@@ -1,0 +1,14 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Visual Studio
+*.sln.docstates
+*.suo
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
