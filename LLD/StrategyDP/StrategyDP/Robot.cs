@@ -4,12 +4,22 @@ namespace StrategyDP
 {
     public class Robot
     {
-        private readonly ITalkableRobot _talkableRobot;
-        private readonly IWalkableRobot _walkableRobot;
-        private readonly IFlyableRobot _flyableRobot;
-        private readonly IProjectable _projectable;
+        private ITalkableRobot _talkableRobot;
+        private IWalkableRobot _walkableRobot;
+        private IFlyableRobot _flyableRobot;
+        private IProjectable _projectable;
+
+        public Robot() { }
 
         public Robot(ITalkableRobot talkableRobot, IWalkableRobot walkableRobot, IFlyableRobot flyableRobot, IProjectable projectable)
+        {
+            _talkableRobot = talkableRobot;
+            _walkableRobot = walkableRobot;
+            _flyableRobot = flyableRobot;
+            _projectable = projectable;
+        }
+
+        public void SetRobot(ITalkableRobot talkableRobot, IWalkableRobot walkableRobot, IFlyableRobot flyableRobot, IProjectable projectable)
         {
             _talkableRobot = talkableRobot;
             _walkableRobot = walkableRobot;
