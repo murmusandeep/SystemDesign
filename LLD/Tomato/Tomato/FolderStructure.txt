@@ -1,0 +1,33 @@
+﻿OnlineFoodOrderingSystem/
+│
+├── Program.cs                   // Composition root and entry point (equiv. to Main.java)
+├── TomatoApp.cs                 // Facade class (main orchestrator)
+│
+├── Models/
+│   ├── MenuItem.cs
+│   ├── Restaurant.cs
+│   ├── User.cs
+│   ├── Cart.cs
+│   ├── Order.cs                 // Abstract Order
+│   ├── DeliveryOrder.cs
+│   ├── PickupOrder.cs
+│
+├── Managers/
+│   ├── RestaurantManager.cs
+│   ├── OrderManager.cs
+│
+├── Strategies/
+│   ├── PaymentStrategy.cs       // Base interface or abstract class
+│   ├── CreditCardPaymentStrategy.cs
+│   ├── UpiPaymentStrategy.cs
+│
+├── Factories/
+│   ├── OrderFactory.cs          // Abstract factory interface
+│   ├── NowOrderFactory.cs
+│   ├── ScheduledOrderFactory.cs
+│
+├── Services/
+│   └── NotificationService.cs
+│
+├── Utils/
+│   └── TimeUtils.cs
