@@ -1,6 +1,6 @@
 ﻿using StrategyDP.Interfaces;
 
-namespace StrategyDP.Strategys
+namespace StrategyDP.Strategys.TalkableStrategy
 {
     public class NoTalk : ITalkableRobot
     {

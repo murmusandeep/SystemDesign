@@ -1,4 +1,7 @@
-﻿using StrategyDP.Strategys;
+﻿using StrategyDP.Strategys.CompanableStrategy;
+using StrategyDP.Strategys.FlyableStrategy;
+using StrategyDP.Strategys.TalkableStrategy;
+using StrategyDP.Strategys.WalkableStrategy;
 
 namespace StrategyDP
 {

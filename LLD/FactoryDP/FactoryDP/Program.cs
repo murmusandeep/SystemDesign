@@ -13,7 +13,7 @@ namespace FactoryDP
             SimpleFactory.IBurger simpleBurger = simpleBurgerFactory.CreateBurger(burgerType);
             simpleBurger.Prepare();
 
-            FactoryMethod.IBurgerFactory factoryMethodBurgerFactory = new FactoryMethod.Factories.KingBurger();
+            IBurgerFactory factoryMethodBurgerFactory = new FactoryMethod.Factories.KingBurger();
             IBurger factoryMethodBurger = factoryMethodBurgerFactory.CreateBurger(burgerType);
             factoryMethodBurger.Prepare();
 

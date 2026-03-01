@@ -1,6 +1,4 @@
-﻿using FactoryDP.FactoryMethod.Interfaces;
-
-namespace FactoryDP.FactoryMethod
+﻿namespace FactoryDP.FactoryMethod.Interfaces
 {
     public interface IBurgerFactory
     {
